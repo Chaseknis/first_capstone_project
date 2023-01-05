@@ -28,6 +28,10 @@ nav {
   padding: 0 16px 0 16px;
 }
 
+.about_homepage {
+  padding: 0 16px 0 16px;
+}
+
 header {
   width: 100%;
   background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(images/rafael-rex-felisilda-U_Kz2RnfFAk-unsplash.jpg);
@@ -71,6 +75,13 @@ ul li {
 }
 
 .paragraph_container {
+  background-color: rgb(240, 240, 240);
+  border: 2px solid white;
+  padding: 1.5rem 1rem;
+  z-index: 1;
+}
+
+.about_paragraph_container {
   background-color: rgb(240, 240, 240);
   border: 2px solid white;
   padding: 1.5rem 1rem;
@@ -130,7 +141,21 @@ ul li {
   padding-bottom: 5px;
 }
 
+.about_greeting {
+  color: #ec5242;
+  font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
 h1 {
+  color: #ec5242;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 1.5rem;
+}
+
+.about_text_image_mask h1 {
   color: #ec5242;
   font-size: 40px;
   font-weight: 800;
@@ -144,6 +169,13 @@ h1.text_image_mask {
 }
 
 .paragraph_container p {
+  color: #272a31;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.about_paragraph_container p {
   color: #272a31;
   font-size: 16px;
   font-weight: 500;
@@ -510,7 +542,20 @@ footer {
     background-size: 100% 30%;
   }
 
+  .about_homepage {
+    width: 100%;
+    height: 100vh;
+    padding: 130px 240px 0 240px;
+  }
+
   .greeting {
+    font-size: 48px;
+    font-weight: 400;
+    padding-top: 9%;
+    padding-bottom: 10px;
+  }
+
+  .about_greeting {
     font-size: 48px;
     font-weight: 400;
     padding-top: 9%;
@@ -524,12 +569,30 @@ footer {
     padding-bottom: 1.5rem;
   }
 
+  .about_text_image_mask h1 {
+    width: 60%;
+    font-size: 85px;
+    line-height: 85px;
+    padding-bottom: 1.5rem;
+  }
+
   .paragraph_container {
+    max-width: 80%;
+    padding: 1rem;
+  }
+
+  .about_paragraph_container {
     max-width: 50%;
     padding: 1rem;
   }
 
   .paragraph_container p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+
+  .about_paragraph_container p {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
