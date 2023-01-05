@@ -195,9 +195,9 @@ If you like this project... Kindly leave a star ⭐
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+I would like to thank Microverse and my studying partners and [Cindy Shin](https://www.behance.net/adagio07) for the amazing UI design.
 
-I would like to thank Microverse and my studying partners
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
