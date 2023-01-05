@@ -73,9 +73,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://chaseknis.github.io/)
+- [Live Demo Link](https://chaseknis.github.io/first_capstone_project/)
 
-<img width="1440" alt="Screenshot 2022-12-21 at 10 45 39" src="https://user-images.githubusercontent.com/97366651/208861893-52c1ebbf-8cee-4a6b-bf2d-2cf1336d0ce0.png">
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -83,7 +82,7 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
-A beginner developer can use this template as a starting point for creating other HTML projects that are properly set up with CSS and have ESLint configured.
+A beginner developer can use this website as a starting point for creating other HTML projects that are properly set up with CSS and have ESLint configured.
 
 ### Prerequisites
 
@@ -91,9 +90,8 @@ In order to run this project you need:
 
 - NODE
 - ESlint set up
-- Figma Template
+- Web Template from Binance 
 
-<img width="1440" alt="Screenshot 2022-12-21 at 11 05 15" src="https://user-images.githubusercontent.com/97366651/208865216-91b3cda4-b31a-4de3-a014-71efd349c650.png">
 
 
 ### Setup
@@ -109,8 +107,8 @@ To obtain a copy of this repository, clone it to your desired folder:
 Commands: 
 
 ```sh
-  git clone https://github.com/Chaseknis/chaseknis.github.io.git
-  cd hello-world
+  gh repo clone Chaseknis/first_capstone_project
+  cd capstone_project
   npm install -y
 ```
 <br><br>
@@ -171,9 +169,9 @@ To run tests, run the following command:
 > I'll add the following section to the webpage.
 
 - [ ] **[work_section]()**
-- [ ] **[about_myself_section]()**
-- [ ] **[contact_section]()**
-- [ ] **[Added contact form validation using javascript]()**
+- [ ] **[about_page]()**
+- [ ] **[partners_section]()**
+- [ ] **[footer_section]()**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,7 +180,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Chaseknis/chaseknis.github.io/issues).
+Feel free to check the [issues page](https://github.com/Chaseknis/first_capstone_project/tree/mobile_preview).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
