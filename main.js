@@ -52,6 +52,35 @@ for (let i = 0; i < councilList.length; i += 1) {
             <hr>
             <p>${councilList[i].bio}</p>
         </div>
-  </div>
-    `;
+  </div>`;
 }
+
+const hamburger = document.querySelector('.hamburger_menu');
+const navMenu = document.querySelector('.nav_menu');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+});
+
+document.querySelectorAll('.menu_link').forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+}));
+
+window.addEventListener("resize", (event) => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+});
+
+// hamburger.addEventListener('click', () => {
+//   hamburger.classList.toggle('active');
+//   menu.classList.toggle('active');
+// });
+
+// closeMenu.addEventListener('click', () => {
+//   hamburger.classList.remove('active');
+//   menu.classList.remove('active');
+// });
+
+
