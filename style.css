@@ -127,6 +127,10 @@ ul li {
   z-index: 1;
 }
 
+.logo_white {
+  display: none;
+}
+
 .about_paragraph_container {
   background-color: rgb(240, 240, 240);
   border: 2px solid white;
@@ -264,6 +268,19 @@ h1.text_image_mask {
   font-weight: 800;
   padding-top: 1rem;
   padding-bottom: 0.5rem;
+}
+
+.about_line {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+  margin-bottom: 2rem;
 }
 
 .location_wrapper {
@@ -586,7 +603,18 @@ hr {
   background-color: rgb(56, 58, 62);
 }
 
+.partners_two {
+  background-color: rgb(56, 58, 62);
+}
+
 .partners_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 16px 0 16px;
+}
+
+.partners_wrapper_two {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -719,7 +747,13 @@ footer {
     gap: 50px;
   }
 
-  .menu_links_container ul li {
+  .commission_wrapper a {
+    color: #f0f0f0;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .menu_links_container ul li a {
     color: rgb(56, 58, 62);
     font-size: 18px;
     font-weight: 400;
@@ -759,10 +793,16 @@ footer {
     padding-top: 4rem;
   }
 
-  .commission_wrapper a {
-    color: #f0f0f0;
-    font-size: 20px;
-    text-decoration: none;
+  .partners_two {
+    display: none;
+  }
+
+  .logo_white {
+    display: block;
+  }
+
+  .normal_logo {
+    display: none;
   }
 
   .menu_links_container .button_wrapper {
@@ -1123,6 +1163,10 @@ footer {
     width: 50px;
   }
 
+  .footer_section {
+    background-color: #272a31;
+  }
+
   .footer_wrapper {
     display: flex;
     align-items: center;
@@ -1132,6 +1176,12 @@ footer {
 
   .footer_wrapper p {
     font-size: 1rem;
+  }
+
+  .footer_wrapper .about_footer_paragraph {
+    color: #f0f0f0;
+    font-size: 0.7rem;
+    align-self: center;
   }
 
   .more_button_wrapper {

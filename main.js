@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-
 const hamburger = document.querySelector('.hamburger_menu');
 const navMenu = document.querySelector('.nav_menu');
 
@@ -13,7 +11,7 @@ document.querySelectorAll('.menu_link').forEach((n) => n.addEventListener('click
   navMenu.classList.remove('active');
 }));
 
-window.addEventListener('resize', (event) => {
+window.addEventListener('resize', () => {
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
 });
@@ -61,19 +59,19 @@ const councilList = [
 if (councilCards) {
   for (let i = 0; i < councilList.length; i += 1) {
     councilCards.innerHTML += `
-      <div class="judges">
-          <div class="judges_image">
-              <img src="${councilList[i].image}" alt="speakers">
+      <article class="judges">
+        <div class="judges_image">
+          <img src="${councilList[i].image}" alt="speakers">
+        </div>
+        <div class="judge_title_wrapper"> 
+          <h4>${councilList[i].councilJudge}</h4>
+          <div class="judge_description">
+            ${councilList[i].description}
           </div>
-          <div class="judge_title_wrapper"> 
-              <h4>${councilList[i].councilJudge}</h4>
-              <div class="judge_description">
-                  ${councilList[i].description}
-              </div>
-              <hr>
-              <p>${councilList[i].bio}</p>
-          </div>
-    </div>`;
+          <hr>
+          <p>${councilList[i].bio}</p>
+        </div>
+      </article>`;
   }
 }
 
