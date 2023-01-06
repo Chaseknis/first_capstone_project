@@ -886,10 +886,6 @@ footer {
     line-height: 30px;
   }
 
-  .about_paragraph_container span {
-    display: block;
-  }
-
   .about_paragraph_container p {
     font-size: 15px;
     font-weight: 500;
@@ -1068,12 +1064,6 @@ footer {
     background-size: 100px 100px;
     background-image: url(images/grey_square.png);
   }
-
-  /* .judges:nth-child(4),
-  .judges:nth-child(5),
-  .judges:nth-child(6) {
-    display: flex;
-  } */
 
   .hidden_judges .judges {
     display: flex !important;
