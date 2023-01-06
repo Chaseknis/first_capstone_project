@@ -26,14 +26,18 @@
 - [📝 License](#license)
 
 
-# 📖<a name="about-project">Portfolio</a>
+# 📖<a name="about-project">Chess Tournament Website</a>
 
 
-***Building a responsive Chess tournament website using HTML/CSS Javascript from a binance design template***
+***Building a responsive Chess tournament website using HTML/CSS Javascript from a bihance design template***
 
-[Click here for the portfolio presentation video](https://www.loom.com/share/28c29650d8fc49d385239bf842e7bccc)
+[Click here for the website presentation video](https://www.loom.com/share/413fd20b5d954e378b9f109ffca7761c)
 
-## 🛠 Built With <a name="built-with">Figma, VSCode, Binance and Github</a>
+<img width="1680" alt="Screenshot 2023-01-06 at 18 27 50" src="https://user-images.githubusercontent.com/97366651/211055086-8f05ef3b-d94a-400d-9915-909b475b494d.png">
+
+
+
+## 🛠 Built With <a name="built-with">Figma, VSCode, BiHance and Github</a>
 
 ### <a name="tech-stack">HTML/CSS, Javascript, Github and Figma</a>
 
@@ -199,6 +203,11 @@ I would like to thank Microverse and my studying partners and [Cindy Shin](https
 
 Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
+
+<img width="1680" alt="Screenshot 2023-01-06 at 18 35 26" src="https://user-images.githubusercontent.com/97366651/211056170-f5bab3a2-b7b5-4b2e-baed-c563469437dd.png">
+
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
@@ -222,6 +231,5 @@ Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
