@@ -29,7 +29,15 @@ nav {
 }
 
 .about_homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 0 16px 0 16px;
+}
+
+.small_menu_wrapper {
+  display: none;
 }
 
 header {
@@ -88,6 +96,26 @@ ul li {
   z-index: 1;
 }
 
+.about_paragraph_container span {
+  display: none;
+}
+
+.about_location_wrapper {
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.email_tag {
+  font-size: 13px;
+  color: #272a31;
+  font-weight: 600;
+  text-decoration: underline;
+  padding-bottom: 4rem;
+}
+
 .shape_one,
 .shape_two,
 .shape_three {
@@ -130,6 +158,14 @@ ul li {
   z-index: -1;
 }
 
+.about_circle_shape_wrapper {
+  width: 10%;
+  position: absolute;
+  top: 275px;
+  left: 20px;
+  z-index: -1;
+}
+
 .circle_shape_wrapper img {
   width: 100%;
 }
@@ -155,10 +191,11 @@ h1 {
   padding-bottom: 1.5rem;
 }
 
-.about_text_image_mask h1 {
+.about_text_image_mask {
   color: #ec5242;
   font-size: 40px;
   font-weight: 800;
+  text-align: center;
   padding-bottom: 1.5rem;
 }
 
@@ -178,6 +215,7 @@ h1.text_image_mask {
 .about_paragraph_container p {
   color: #272a31;
   font-size: 16px;
+  text-align: center;
   font-weight: 500;
   line-height: 25px;
 }
@@ -283,7 +321,18 @@ hr {
   display: none;
 }
 
+.about_council_section {
+  background-color: white;
+}
+
 .council_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 16px 0 16px;
+}
+
+.about_council_wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -295,6 +344,112 @@ hr {
   font-size: 25px;
   text-align: center;
   padding-bottom: 1rem;
+}
+
+.about_council_wrapper h2 {
+  color: #272a31;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.about_council_wrapper p {
+  font-size: 14px;
+  color: #272a31;
+  text-align: center;
+  line-height: 25px;
+}
+
+.about_logo_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #f0f0f0;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about_council_wrapper img {
+  width: 70%;
+}
+
+.middle_cut {
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 0;
+}
+
+.about_partners {
+  background-color: white;
+}
+
+.about_partners_wrapper {
+  padding: 2rem 30px 0 30px;
+}
+
+.about_parteners_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_partners_wrapper h2 {
+  color: #272a31;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.about_partners_wrapper p {
+  font-size: 14px;
+  color: #272a31;
+  text-align: center;
+  line-height: 25px;
+}
+
+.about_card_wrapper {
+  width: 100%;
+  height: 20vh;
+  background-image: linear-gradient(rgba(174, 48, 48, 0.608), rgba(156, 73, 73, 0.586)), url(images/chess_competition_three.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 2rem 0 2rem 0;
+}
+
+.about_card_wrapper_two {
+  width: 100%;
+  height: 20vh;
+  background-image: linear-gradient(rgba(174, 48, 48, 0.608), rgba(156, 73, 73, 0.586)), url(images/chess_competition_one.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 2rem 0 2rem 0;
+}
+
+.image_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image_text .year {
+  font-size: 38px;
+  color: #f0f0f0;
+  font-weight: 600;
+  padding-top: 10%;
+}
+
+.image_text p {
+  font-size: 14px;
+  color: #f0f0f0;
+  font-weight: 400;
+  left: 10px;
 }
 
 .judges_wrapper {
@@ -544,8 +699,36 @@ footer {
 
   .about_homepage {
     width: 100%;
-    height: 100vh;
-    padding: 130px 240px 0 240px;
+    padding: 240px 240px 0 240px;
+  }
+
+  .small_menu_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 140px;
+    right: 240px;
+    gap: 2px;
+  }
+
+  .small_menu_wrapper img {
+    width: 20px;
+  }
+
+  .small_menu_wrapper .fa-solid {
+    width: 20px;
+    color: #ec5242;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+  }
+
+  .small_menu_wrapper .small_text {
+    font-size: 14px;
+    color: #272a31;
   }
 
   .greeting {
@@ -569,20 +752,21 @@ footer {
     padding-bottom: 1.5rem;
   }
 
-  .about_text_image_mask h1 {
+  .about_text_image_mask {
     width: 60%;
-    font-size: 85px;
-    line-height: 85px;
+    font-size: 55px;
+    line-height: 65px;
+    text-align: center;
     padding-bottom: 1.5rem;
   }
 
   .paragraph_container {
-    max-width: 80%;
+    max-width: 50%;
     padding: 1rem;
   }
 
   .about_paragraph_container {
-    max-width: 50%;
+    max-width: 70%;
     padding: 1rem;
   }
 
@@ -592,10 +776,74 @@ footer {
     line-height: 30px;
   }
 
+  .about_paragraph_container span {
+    display: block;
+  }
+
   .about_paragraph_container p {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
+    text-align: center;
     line-height: 30px;
+  }
+
+  .about_location_wrapper {
+    width: 60%;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .email_tag {
+    color: #272a31;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  .about_logo_wrapper {
+    padding: 2rem 4rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+
+  .about_council_wrapper img {
+    width: 90%;
+  }
+
+  .about_partners_wrapper h2 {
+    color: #272a31;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .about_council_wrapper p {
+    font-size: 16px;
+  }
+
+  .about_partners_wrapper p {
+    font-size: 16px;
+  }
+
+  .about_card_wrapper {
+    width: 40%;
+    height: 30vh;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .about_card_wrapper_two {
+    width: 40%;
+    height: 30vh;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .about_card_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0 280px 0 280px;
   }
 
   .date_wrapper {
