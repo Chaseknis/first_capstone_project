@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 const hamburger = document.querySelector('.hamburger_menu');
 const navMenu = document.querySelector('.nav_menu');
 
@@ -11,12 +13,10 @@ document.querySelectorAll('.menu_link').forEach((n) => n.addEventListener('click
   navMenu.classList.remove('active');
 }));
 
-window.addEventListener("resize", (event) => {
+window.addEventListener('resize', (event) => {
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
 });
-
-
 
 const councilCards = document.querySelector('.judges_wrapper');
 
@@ -58,7 +58,7 @@ const councilList = [
     bio: 'Linda is an experienced chess judge known for fair decision making and upholding tournament integrity.',
   },
 ];
-if(councilCards) { 
+if (councilCards) {
   for (let i = 0; i < councilList.length; i += 1) {
     councilCards.innerHTML += `
       <div class="judges">
@@ -75,32 +75,17 @@ if(councilCards) {
           </div>
     </div>`;
   }
-};
+}
 
-
-const moreButton = document.querySelector(".more_button_wrapper");
-const judges = document.querySelector(".judges_wrapper");
+const moreButton = document.querySelector('.more_button_wrapper');
+const judges = document.querySelector('.judges_wrapper');
 
 moreButton.addEventListener('click', () => {
   judges.classList.toggle('hidden_judges');
-  
-  if (moreButton.textContent.includes( 'More')) {
+
+  if (moreButton.textContent.includes('More')) {
     moreButton.textContent = 'Less';
   } else {
     moreButton.textContent = 'More';
-  };
-
+  }
 });
-
-
-// hamburger.addEventListener('click', () => {
-//   hamburger.classList.toggle('active');
-//   menu.classList.toggle('active');
-// });
-
-// closeMenu.addEventListener('click', () => {
-//   hamburger.classList.remove('active');
-//   menu.classList.remove('active');
-// });
-
-
