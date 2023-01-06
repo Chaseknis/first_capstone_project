@@ -41,7 +41,7 @@ const councilList = [
 for (let i = 0; i < councilList.length; i += 1) {
   councilCards.innerHTML += `
     <div class="judges">
-        <div>
+        <div class="judges_image">
             <img src="${councilList[i].image}" alt="speakers">
         </div>
         <div class="judge_title_wrapper"> 

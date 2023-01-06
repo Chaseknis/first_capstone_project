@@ -371,6 +371,24 @@ hr {
   margin-top: 2rem;
 }
 
+.more_button_wrapper {
+  order: 4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 2rem;
+}
+
+.more_button_wrapper .fa {
+  color: #ec5242;
+}
+
+.more_button_wrapper:hover {
+  background-color: #ec5242;
+  color: #272a31;
+  transition: 0.5s;
+  border: none;
+}
+
 .about_council_wrapper img {
   width: 70%;
 }
@@ -1040,5 +1058,9 @@ footer {
 
   .footer_wrapper p {
     font-size: 1rem;
+  }
+
+  .more_button_wrapper {
+    display: none;
   }
 }
