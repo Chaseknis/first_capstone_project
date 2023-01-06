@@ -1,3 +1,23 @@
+const hamburger = document.querySelector('.hamburger_menu');
+const navMenu = document.querySelector('.nav_menu');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+});
+
+document.querySelectorAll('.menu_link').forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+}));
+
+window.addEventListener("resize", (event) => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+});
+
+
+
 const councilCards = document.querySelector('.judges_wrapper');
 
 const councilList = [
@@ -38,40 +58,40 @@ const councilList = [
     bio: 'Linda is an experienced chess judge known for fair decision making and upholding tournament integrity.',
   },
 ];
-for (let i = 0; i < councilList.length; i += 1) {
-  councilCards.innerHTML += `
-    <div class="judges">
-        <div class="judges_image">
-            <img src="${councilList[i].image}" alt="speakers">
-        </div>
-        <div class="judge_title_wrapper"> 
-            <h4>${councilList[i].councilJudge}</h4>
-            <div class="judge_description">
-                ${councilList[i].description}
-            </div>
-            <hr>
-            <p>${councilList[i].bio}</p>
-        </div>
-  </div>`;
-}
+if(councilCards) { 
+  for (let i = 0; i < councilList.length; i += 1) {
+    councilCards.innerHTML += `
+      <div class="judges">
+          <div class="judges_image">
+              <img src="${councilList[i].image}" alt="speakers">
+          </div>
+          <div class="judge_title_wrapper"> 
+              <h4>${councilList[i].councilJudge}</h4>
+              <div class="judge_description">
+                  ${councilList[i].description}
+              </div>
+              <hr>
+              <p>${councilList[i].bio}</p>
+          </div>
+    </div>`;
+  }
+};
 
-const hamburger = document.querySelector('.hamburger_menu');
-const navMenu = document.querySelector('.nav_menu');
 
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
-  navMenu.classList.toggle('active');
+const moreButton = document.querySelector(".more_button_wrapper");
+const judges = document.querySelector(".judges_wrapper");
+
+moreButton.addEventListener('click', () => {
+  judges.classList.toggle('hidden_judges');
+  
+  if (moreButton.textContent.includes( 'More')) {
+    moreButton.textContent = 'Less';
+  } else {
+    moreButton.textContent = 'More';
+  };
+
 });
 
-document.querySelectorAll('.menu_link').forEach((n) => n.addEventListener('click', () => {
-  hamburger.classList.remove('active');
-  navMenu.classList.remove('active');
-}));
-
-window.addEventListener("resize", (event) => {
-  hamburger.classList.remove('active');
-  navMenu.classList.remove('active');
-});
 
 // hamburger.addEventListener('click', () => {
 //   hamburger.classList.toggle('active');

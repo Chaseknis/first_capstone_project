@@ -536,11 +536,16 @@ hr {
   object-fit: cover;
 }
 
-.judges:nth-child(4),
+/* .judges:nth-child(4),
 .judges:nth-child(5),
 .judges:nth-child(6) {
   display: none;
+} */
+
+.hidden_judges .judges:nth-child(n + 5) {
+  display: none;
 }
+
 
 .judges_image {
   padding-left: 15px;
@@ -662,6 +667,19 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 15px 240px 15px 240px;
+  }
+
+  .nav_menu {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    position: static;
+    text-align: center;
+    padding-top: 0;
+    z-index: 10;
+    transition: 0.3s;
   }
 
   .logo {
@@ -1052,10 +1070,14 @@ footer {
     background-image: url(images/grey_square.png);
   }
 
-  .judges:nth-child(4),
+  /* .judges:nth-child(4),
   .judges:nth-child(5),
   .judges:nth-child(6) {
     display: flex;
+  } */
+
+  .hidden_judges .judges {
+    display: flex !important;
   }
 
   .judges_image {
