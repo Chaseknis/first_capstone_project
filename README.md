@@ -33,8 +33,7 @@
 
 [Click here for the website presentation video](https://www.loom.com/share/413fd20b5d954e378b9f109ffca7761c)
 
-<img width="1680" alt="Screenshot 2023-01-06 at 18 27 50" src="https://user-images.githubusercontent.com/97366651/211055086-8f05ef3b-d94a-400d-9915-909b475b494d.png">
-
+![capstone](https://user-images.githubusercontent.com/97366651/222459813-68394eff-8406-43f8-9e61-21ce26fcef4e.png)
 
 
 ## 🛠 Built With <a name="built-with">Figma, VSCode, BiHance and Github</a>
