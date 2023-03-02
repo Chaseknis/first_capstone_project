@@ -33,9 +33,6 @@
 
 [Click here for the website presentation video](https://www.loom.com/share/413fd20b5d954e378b9f109ffca7761c)
 
-![capstone](https://user-images.githubusercontent.com/97366651/222459813-68394eff-8406-43f8-9e61-21ce26fcef4e.png)
-
-
 ## 🛠 Built With <a name="built-with">Figma, VSCode, BiHance and Github</a>
 
 ### <a name="tech-stack">HTML/CSS, Javascript, Github and Figma</a>
@@ -78,7 +75,7 @@
 
 - [Live Demo Link](https://chaseknis.github.io/first_capstone_project/)
 
-
+![capstone](https://user-images.githubusercontent.com/97366651/222459813-68394eff-8406-43f8-9e61-21ce26fcef4e.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
